@@ -1,4 +1,4 @@
 trang
 =====
 
-trang.heroku.com
+trang.herokuapp.com
