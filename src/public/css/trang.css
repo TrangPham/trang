@@ -1,45 +1,64 @@
 /* line 1, ../sass/trang.sass */
 * {
   font-family: "Source Code Pro";
+  font-size: 16px;
 }
 
-/* line 3, ../sass/trang.sass */
+/* line 4, ../sass/trang.sass */
 .center {
   text-align: center;
   margin: auto;
 }
 
-/* line 6, ../sass/trang.sass */
+/* line 7, ../sass/trang.sass */
 .content-primary {
   width: 70%;
   margin: auto;
 }
 
-/* line 9, ../sass/trang.sass */
+/* line 10, ../sass/trang.sass */
 .technical, .meek, .cheerful {
-  padding: 10px;
-  margin: 10px;
-  border: 1px solid;
-  display: block;
   float: left;
   width: 30%;
   min-height: 300px;
 }
 
-/* line 17, ../sass/trang.sass */
+/* line 14, ../sass/trang.sass */
 .descriptions {
   min-height: 350px;
 }
 
-/* line 20, ../sass/trang.sass */
+/* line 17, ../sass/trang.sass */
+.panel {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+}
+
+/* line 21, ../sass/trang.sass */
+.fa {
+  font-size: 14px;
+}
+
+/* line 25, ../sass/trang.sass */
 .pixel-dinosaur {
   background: url("../img/Pixel_Dinosaur_by_reang.gif") no-repeat;
   width: 40px;
   height: 40px;
 }
 
-/* line 24, ../sass/trang.sass */
+/* line 29, ../sass/trang.sass */
 .horizontal-line {
   border-top: 1px solid #eeeeee;
   height: 10px;
+}
+
+/* line 33, ../sass/trang.sass */
+.no-marker {
+  list-style-type: none;
+}
+
+/* line 35, ../sass/trang.sass */
+.timeline {
+  list-style-type: none;
 }
