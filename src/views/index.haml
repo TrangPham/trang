@@ -1,24 +1,31 @@
-!!! 5
-%html
-  = haml :"ui/_head"
-  %body
-    .content-primary
-      %h1 Thu Trang Pham
-      %p > Describe yourself in three words.
-      .technical
-        %h3 Technical
-        %p A result-driven software engineer who believes in:
-        %ul
-          %li test-driven design, 
-          %li taking the initiative, 
-          %li fully understanding the why, 
-          %li and self-automation
-      .meek
-        %h3 Meek
-        %p To be Meek is ... to be willing to learn, to be humble and patient, to keep faith under pressure, to seek improvement everyday.
-      .cheerful
-        .pixel-dinosaur 
-        %h3 Cheerful
-        .center Smiles are my beauty
-        .center Cuteness is my charm
-        .center Cheerful is my nature
+= haml :"ui/_top"
+.content-primary
+  %p > Describe yourself in three words.
+  .descriptions
+    .technical.panel
+      %h3.panel-heading Technical
+      %p A result-driven software engineer who believes in:
+      %ul
+        %li test-driven design, 
+        %li taking the initiative, 
+        %li fully understanding the why, 
+        %li and self-automation
+    .meek.panel
+      %h3.panel-heading Meek
+      %p To be Meek is ... to be willing to learn, to be humble and patient, to keep faith under pressure, to seek improvement everyday.
+    .cheerful.panel
+      .pixel-dinosaur 
+      %h3.panel-heading Cheerful
+      .center Smiles are my beauty
+      .center Cuteness is my charm
+      .center Cheerful is my nature
+  .horizontal-line
+  %ul.nav.nav-pills
+    %li
+      %a{"href" => "/"} Home
+    %li
+      %a About
+    %li
+      %a CV
+    %li
+      %a Contact

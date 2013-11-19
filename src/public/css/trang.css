@@ -26,9 +26,20 @@
   height: 250px;
 }
 
-/* line 18, ../sass/trang.sass */
+/* line 17, ../sass/trang.sass */
+.descriptions {
+  height: 300px;
+}
+
+/* line 20, ../sass/trang.sass */
 .pixel-dinosaur {
   background: url("../img/Pixel_Dinosaur_by_reang.gif") no-repeat;
   width: 40px;
   height: 40px;
+}
+
+/* line 24, ../sass/trang.sass */
+.horizontal-line {
+  border-top: 1px solid #eeeeee;
+  height: 10px;
 }
