@@ -23,12 +23,12 @@
   display: block;
   float: left;
   width: 30%;
-  height: 250px;
+  min-height: 300px;
 }
 
 /* line 17, ../sass/trang.sass */
 .descriptions {
-  height: 300px;
+  min-height: 350px;
 }
 
 /* line 20, ../sass/trang.sass */
