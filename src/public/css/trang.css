@@ -1,0 +1,34 @@
+/* line 1, ../sass/trang.sass */
+* {
+  font-family: "Source Code Pro";
+}
+
+/* line 3, ../sass/trang.sass */
+.center {
+  text-align: center;
+  margin: auto;
+}
+
+/* line 6, ../sass/trang.sass */
+.content-primary {
+  width: 70%;
+  margin: auto;
+}
+
+/* line 9, ../sass/trang.sass */
+.technical, .meek, .cheerful {
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid;
+  display: block;
+  float: left;
+  width: 30%;
+  height: 250px;
+}
+
+/* line 18, ../sass/trang.sass */
+.pixel-dinosaur {
+  background: url("../img/Pixel_Dinosaur_by_reang.gif") no-repeat;
+  width: 40px;
+  height: 40px;
+}
